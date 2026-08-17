@@ -1,4 +1,4 @@
-function Anagrams(text, word) {
+export default function checkAnagrams(text, word) {
     text = text.toUpperCase().replace(" ", "");
     word = word.toUpperCase().replace(" ", "");
 
@@ -18,5 +18,3 @@ function Anagrams(text, word) {
 
     return true;
 }
-
-export default Anagrams;
